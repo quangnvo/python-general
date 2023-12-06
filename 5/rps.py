@@ -23,8 +23,8 @@ computerchoice = random.choice("123")
 computer = int(computerchoice)
 
 print("")
-print("You chose", player)
-print("Computer chose", computer)
+print("You chose: " + Choice(player).name.lower())
+print("Python chose: " + Choice(computer).name.lower())
 print("")
 
 if player == 1 and computer == 3:
